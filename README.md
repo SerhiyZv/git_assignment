@@ -44,3 +44,14 @@ The git diff command shows the differences between the changes in the working di
  between the staging area and the repository, between two commits,
  or between any two arbitrary files, directories, or commits.
  
+g. What is the main branch?
+
+The main branch is the deafault branch in Git.
+The main branch, previously known as the master branch, is the stable core of your Git code repository.
+
+h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the main branch?
+
+Pushing changes directly to the main branch is not recommended.
+ It's best practice to follow a structured workflow that involves creating feature branches,
+ making the changes within those branches,
+ and then merging them into the main branch via pull requests or merge requests after the review.
